@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "lecternvideoplayer",
+  "version": "${version}",
+  "name": "LecternVideoPlayer",
+  "description": "A mod that plays videos using a lectern",
+  "authors": [
+    "et118"
+  ],
+  "contact": {
+    "website": "https://github.com/et118"
+  },
+  "license": "MIT",
+  "icon": "assets/LecternVideoPlayer/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.github.et118.lecternvideoplayer.client.LecternVideoPlayerClient"
+    ]
+  },
+  "mixins": [
+    "LecternVideoPlayer.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.10",
+    "fabric": "*",
+    "minecraft": "1.19.2"
+  }
+}

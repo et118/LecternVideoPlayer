@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.github.et118.lecternvideoplayer.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "ClientPlayerEntityMixin",
+    "ScreenMixin",
+    "ClientWorldInvoker",
+    "ClientConnectionMixin",
+    "OpenScreenS2CAccessor",
+    "ClientPlayerInteractionManagerMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
