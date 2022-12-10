@@ -7,4 +7,6 @@ and use `.play [FileName]` to play the file
 Example: `.play BadApple`
 <br>
 
+Create a .et118 file using the [Lectern Video Creator](https://github.com/et118/LecternVideoCreator)
+
 Press esc to stop playing the video
